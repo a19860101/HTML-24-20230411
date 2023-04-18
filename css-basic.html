@@ -8,7 +8,7 @@
     <!-- <link rel="stylesheet" href="style.css"> -->
     <style>
         /* @import url('style.css'); */
-        li {
+        h2 {
             color: #ffbd07;
         }
         .abc {
@@ -17,13 +17,16 @@
         #xyz {
             color:greenyellow;
         }
+        .abc {
+            color:#428dea;
+        }
     </style>
 
 </head>
 <body>
     <h1 style="color:#428dea;">HELLO CSS</h1>
-    <h2 class="abc">Cascade Style Sheet 串接樣式表</h2>
-    <p id="xyz">
+    <h2 class="abc" id="xyz" style="color:#bf0feb;">Cascade Style Sheet 串接樣式表</h2>
+    <p>
         高雄綠色石油這是高雄有意小子自己避免好激動工廠，聯繫電話藝術，大力授權方式具備可以說體會並不配套及時所在地處於是的，幹什麼收藏本頁，負責人證書頻道國內文學治療建立，某個幫你丈夫相應斗內，進步看了防止情況擁有說出微微來的，手中整個核心最好一面車輛網頁，本公。
     </p>
     <p class="abc">
@@ -40,6 +43,13 @@
         1. 標籤選取器 tag
         2. 類別選取器 class (可重複使用)
         3. ID選取器 (只可使用一次)
+
+        CSS權重 (css specificity)
+        影響範圍越少，權重愈重，愈優先套用
+        物以稀為貴
+        嵌入式樣式 > ID > CLASS > TAG
+
+        後方的css會蓋過前方的css
      -->
 </body>
 </html>
