@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        section {
+            width: 1200px;
+            /* height: 600px; */
+            background-color: #aaa;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+
+            /* justify-content:  center; */
+            /* align-items: center; */
+        }
+        .box {
+            width: 400px;
+            flex-basis: 600px;
+            padding: 15px;
+            background-color: #098;
+        }
+        
+        /* 
+            當flex-direction為row時
+                justify-content表水平
+                align-items表垂直
+                flex-basis表寬度
+
+            當flex-direction為column時
+                justify-content表垂直
+                align-items表水平
+                flex-basis表高度
+        */
+    </style>
+</head>
+<body>
+    <section>
+        <div class="box">
+            <h2>title 1</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, voluptatem, temporibus reiciendis totam officia sed quis corporis voluptatibus expedita, similique quidem quas vitae quam. Reprehenderit, fugiat? Earum labore quia corrupti!
+            </p>
+        </div>
+        <!-- <div class="box">
+            <h2>title 2</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda nesciunt iste molestias tenetur dolores qui culpa incidunt doloremque quia magnam voluptates, voluptatibus, vel similique ab perferendis eum temporibus consequatur tempora?
+            </p>
+        </div>
+        <div class="box">
+            <h2>title 3</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit fugit voluptatem omnis aliquam ipsam, reprehenderit exercitationem quibusdam provident accusantium iste necessitatibus dolor doloremque doloribus, natus itaque sequi fugiat dicta ab.
+            </p>
+        </div> -->
+    </section>
+</body>
+</html>
