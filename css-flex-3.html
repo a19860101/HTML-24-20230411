@@ -9,7 +9,7 @@
         * {
             box-sizing: border-box;
         }
-        section {
+        #s1 {
             width: 1200px;
             margin-left: auto;
             margin-right: auto;
@@ -27,10 +27,31 @@
             width: 200px;
             padding: 10px;
         }
+        #s2 {
+            width: 1200px;
+            margin:auto;
+            display: flex;
+            align-items: center;
+            /* 
+                start, center, end
+                stretch, baseline;
+            */
+        }
+        .picture {
+            width: 50%;
+            padding: 10px;
+        }
+        .content {
+            width: 50%;
+            padding: 10px;
+        }
+        img {
+            width: 100%;
+        }
     </style>
 </head>
 <body>
-    <section>
+    <section id="s1">
         <div class="box">
             <h2>title 1</h2>
             <p>
@@ -47,6 +68,17 @@
             <h2>title 3</h2>
             <p>
                 一般國外才能信用同樣一方面裡面最重要訊息房間，僅供人體我和價值訪問立場而是勝利他說人家，還可以沒有爸爸都說宅宅進口老闆些什麼運作批准不大，感染還沒有你自己精靈導演不代表文學主任中心成就宅宅，簽名更是喜愛儀器小七本網加上死亡一系列持續床上裝置回憶，黑暗承受。
+            </p>
+        </div>
+    </section>
+    <section id="s2">
+        <div class="picture">
+            <img src="https://picsum.photos/id/42/800/600" alt="">
+        </div>
+        <div class="content">
+            <h2>title</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim sed, id voluptas illo eveniet amet iusto magnam magni iste animi corrupti, recusandae atque placeat error accusantium cumque, doloribus quam veritatis!
             </p>
         </div>
     </section>
