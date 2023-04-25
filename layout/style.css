@@ -6,7 +6,12 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+/* 後代選取 */
 nav a {
+
+}
+/* 群組選取 */
+.nav-logo, .menu{
     color: #eee;
     text-decoration: none;
     margin-left:10px;
@@ -14,4 +19,8 @@ nav a {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+/* 虛擬類別 */
+.nav-link:hover {
+    color: #ff3d61;
 }
