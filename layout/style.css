@@ -40,7 +40,27 @@ header {
 .header-content {
     text-align: center;
     width: 500px;
+
+    background-color: rgb(255 255 255 / .7);
+    padding: 30px;
+    border-radius: 20px;
 }
 .header-content h1 {
     font-size: 48px;
+}
+
+#portfolio {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #fffaed;
+} 
+.container {
+    width: 1200px;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+    width: calc(100% / 4);
+    padding: 5px;
 }
