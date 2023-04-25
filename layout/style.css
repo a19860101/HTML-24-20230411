@@ -49,6 +49,26 @@ header {
     font-size: 48px;
 }
 
+#about {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #edf9ff;
+}
+
+.avatar {
+    width: 800px;
+}
+.profile {
+    width: 400px;
+    padding: 30px;
+}
+.profile h2 {
+    margin-bottom: 30px;
+}
+.profile li {
+    list-style: inside;
+}
+
 #portfolio {
     padding-top: 200px;
     padding-bottom: 200px;
